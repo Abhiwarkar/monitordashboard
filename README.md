@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pulse Monitor 
+A real-time system monitoring dashboard built with React and TypeScript. 
+Overview 
+Pulse Monitor provides DevOps teams and system administrators with a modern, 
+interactive interface for monitoring system metrics, viewing real-time data, and 
+managing alerts. The dashboard displays critical information through intuitive 
+visualizations and enables quick responses to system issues. 
+Features 
+ Real-time metric monitoring with configurable refresh intervals 
+ Threshold-based alerts with warning and critical levels 
+ Interactive data visualizations using line and area charts 
+ Dark/light theme toggle for different viewing preferences 
+ Alert management system with acknowledgment workflow 
+ Responsive design that works across devices 
+Tech Stack 
+ React (v18+) with functional components and hooks 
+ TypeScript for type safety 
+ Framer Motion for smooth animations and transitions 
+ Recharts for data visualization components 
+ Tailwind CSS (styling patterns) for UI design 
+Usage 
+1. View Metrics: Monitor system health at a glance with color-coded status indicators 
+2. Manage Alerts: Acknowledge or dismiss alerts as they appear 
+3. Explore Data: Click on metric cards to view historical trends 
+4. Configure Settings: Adjust refresh rates, notification settings, and theme preferences 
+Customization 
+The dashboard can be connected to real data sources by: 
+1. Replacing the data generator functions with API calls 
+2. Updating the metric types to match your system requirements 
+3. Adjusting thresholds based on your specific monitoring needs
